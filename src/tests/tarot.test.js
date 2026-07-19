@@ -1,5 +1,3 @@
-import { describe, expect, it } from "vitest";
-
 import Tarot from "../src/tarot.js";
 
 const createDeck = () => [
