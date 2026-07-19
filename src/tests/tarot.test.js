@@ -1,5 +1,6 @@
-import { describe, it, before, after, expect } from 'node:test';
+import { describe, it, before, after } from 'node:test';
 import assert from 'node:assert';
+import expect from 'expect';
 import Tarot from "../tarot.js";
 
 const createDeck = () => [
