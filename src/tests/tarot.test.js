@@ -1,4 +1,6 @@
-import Tarot from "../src/tarot.js";
+import { describe, it, before, after } from 'node:test';
+import assert from 'node:assert';
+import Tarot from "../tarot.js";
 
 const createDeck = () => [
   { name: "The Fool", meanings: ["New beginnings"] },
