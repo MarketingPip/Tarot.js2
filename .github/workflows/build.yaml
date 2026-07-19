@@ -18,13 +18,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run tests
-        run: npm test
-
 
       - name: Build project using Webpack/Rollup
         run: |
           npm i
+          npm test
           npm run build
 
       - name: Commit and push changes
